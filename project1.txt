@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+body{
+color:#F2F3F4;
+}
+        .main {
+            display: flex;
+            justify-content: space-between; /* Align items at the start, center, and end */
+            align-items: center; /* Align items vertically */
+            background-color:#BDC3C7;
+        }
+
+        .pre-container {
+           
+            flex: 1; /* Distribute available space equally among the pre tags */
+        }
+
+        pre {
+            height:10%;
+            margin: 0; /* Remove default margins */
+        }
+        .main1{
+               display:flex;
+               }
+button{
+background-color:black;
+color:white;
+width:30%;
+padding:2%;
+margin-top:10%;
+}
+    </style>
+</head>
+<body>
+<div class="main">
+    <img src="heroimg.jpg" height="50%" width="100%">
+    
+        <div class="pre-container">
+            <pre>
+   Lorem Ipsum is simply dummy text of the
+   printing and typesetting industry.Lorem
+   Ipsum has been the industry's standard
+       dummy text ever since the 1500s
+            </pre>
+        </div>
+        <div class="pre-container">
+            <pre>
+Lorem Ipsum is simply dummy text of the 
+printing and typesetting industry.Lorem
+Ipsum has been the industry's standard
+    dummy text ever since the 1500s
+            </pre>
+        </div>
+        <div class="pre-container">
+            <pre>
+Lorem Ipsum is simply dummy text of the 
+printing and typesetting industry.Lorem
+Ipsum has been the industry's standard
+    dummy text ever since the 1500s
+            </pre>
+        </div>
+    </div>
+<h1>Lorem Ipsum</h1>
+<div class="main1">
+<div class="pre-container">
+<img src="rooms.jpg" height="100%" width="80%">
+<pre>
+
+ROOMS
+
+Lorem ipsum dolor sit amet,consectetur
+adipicing elit,sed do eiusmod tempor
+incididunt ut labore at delore magna aliqua.
+<button>Learn More</button>
+</pre>
+</div>
+<div class="pre-container">
+<img src="dining.jpg" height="100%" width="80%">
+<pre><b>
+              Dining
+
+  Lorem ipsum dolor sit amet,consectetur
+   adipicing elit,sed do eiusmod tempor
+incididunt ut labore at delore magna aliqua.
+              <button>Learn More</button>
+</b></pre>
+</div>
+<div class="pre-container">
+<img src="pool.jpg" height="100%" width="80%">
+<pre><b>
+                                           POOLS
+
+          Lorem ipsum dolor sit amet,consectetur
+            adipicing elit,sed do eiusmod tempor
+      incididunt ut labore at delore magna aliqua.
+                               <button>Learn More</button>
+</b></pre>
+
+</div>
+</div>
+</body>
+</html>
